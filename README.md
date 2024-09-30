@@ -30,13 +30,6 @@ Through this project, I practiced the following skills:
 - Understanding the basics of object-oriented programming by creating a `Book` constructor.
 - Managing application state and user interactions effectively.
 
-## 📝 How to Use
-
-1. Clone the repository or download the HTML, CSS, and JavaScript files.
-2. Open the `index.html` file in your browser.
-3. Use the form to add new books to your library.
-4. Remove or toggle the read status of existing books as needed.
-
 ---
 
 ## 🔗 Acknowledgments
