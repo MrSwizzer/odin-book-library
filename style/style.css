@@ -1,0 +1,136 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #4caf50;
+	margin: 20px 0;
+}
+
+.user_input {
+	display: none;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	max-width: 400px;
+	margin: 20px auto;
+}
+
+.user_input form {
+	display: flex;
+	flex-direction: column;
+}
+
+.user_input label {
+	margin-bottom: 5px;
+	color: #555;
+}
+
+.user_input input[type='text'],
+.user_input input[type='number'] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.user_input input[type='checkbox'] {
+	margin-bottom: 20px;
+}
+
+.user_input button {
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.user_input button:hover {
+	background-color: #45a049;
+}
+
+.output {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.card {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	width: 250px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.card ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.card li {
+	margin-bottom: 10px;
+}
+
+.card button {
+	padding: 10px;
+	margin: 5px 5px;
+	background-color: #2f00ff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.card button:hover {
+	background-color: #190086;
+}
+
+.card button.readButton {
+	background-color: #2196f3;
+}
+
+.card button.readButton:hover {
+	background-color: #1e88e5;
+}
+
+.toggle-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.toggle-form label {
+	cursor: pointer;
+	font-weight: bold;
+	color: #4caf50;
+}
+
+.toggle-form input[type='checkbox'] {
+	margin-left: 10px;
+	transform: scale(1.5);
+}
+
+.new_book_checkbox {
+	display: flex;
+	justify-content: center;
+}
