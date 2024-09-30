@@ -17,7 +17,7 @@ This project is part of **The Odin Project's JavaScript curriculum**, where I cr
 
 ## 📸 Preview
 
-You can view the Library application here: [Live Demo](https://mrswizzer.github.io/odin-books-library)
+You can view the Library application here: [Live Demo](https://mrswizzer.github.io/odin-book-library)
 
 ![Preview](./preview-pics/preview.png)
 
